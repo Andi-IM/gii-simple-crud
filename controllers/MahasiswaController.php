@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\Pagination;
+use app\models\Prodi;
 
 /**
  * MahasiswaController implements the CRUD actions for Mahasiswa model.
@@ -71,13 +72,17 @@ class MahasiswaController extends Controller
         if(isset($_POST['depdrop_parents'])){
             $parents = $_POST['depdrop_parent'];
             if ($parents != null) {
-                $cat_id = $parents[0];
-                $out = Prodi::getProdiList($cat_id);
+                $prodi = $parents[0];
+                $out = Prodi::getProdiList($prodi);
 
-                return json_encode(['output'=>$out, 'selected'=>'']);
+                return json_encode(
+                    ['output'=>$out, 'selected'=>'']
+                );
             }
         }
-        return json_encode(['output'=>'', 'selected'=>'']);
+        return json_encode(
+            ['output'=>'', 'selected'=>'']
+        );
     }
 
     /**

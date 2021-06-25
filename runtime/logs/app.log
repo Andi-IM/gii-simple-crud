@@ -12424,3 +12424,111 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1624072329.1639
     'REQUEST_TIME' => 1624072329
 ]
+2021-06-25 11:35:37 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php:719
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php(719): PDO->__construct('mysql:host=loca...', 'root', 'b4r4mij', NULL)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php(1059): yii\db\Connection->open()
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Schema.php(758): yii\db\mysql\Schema->loadTableSchema('mahasiswa')
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Schema.php(194): yii\db\Schema->getTableMetadata('mahasiswa', 'schema', false)
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('mahasiswa')
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(291): yii\db\BaseActiveRecord->hasAttribute('id')
+#15 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\validators\Validator.php(258): yii\db\BaseActiveRecord->__get('id')
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\MahasiswaSearch), Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\models\MahasiswaSearch.php(53): yii\base\Model->validate()
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(41): app\models\MahasiswaSearch->search(Array)
+#19 [internal function]: app\controllers\MahasiswaController->actionIndex()
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#23 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/', Array)
+#24 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php:649
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php(1059): yii\db\Connection->open()
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Schema.php(758): yii\db\mysql\Schema->loadTableSchema('mahasiswa')
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Schema.php(194): yii\db\Schema->getTableMetadata('mahasiswa', 'schema', false)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('mahasiswa')
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(500): yii\db\ActiveRecord->attributes()
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(291): yii\db\BaseActiveRecord->hasAttribute('id')
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\validators\Validator.php(258): yii\db\BaseActiveRecord->__get('id')
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\MahasiswaSearch), Array)
+#15 C:\Users\andii\Documents\devapp\gii-simple-crud\models\MahasiswaSearch.php(53): yii\base\Model->validate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(41): app\models\MahasiswaSearch->search(Array)
+#17 [internal function]: app\controllers\MahasiswaController->actionIndex()
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/', Array)
+#22 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1045
+    [2] => Access denied for user 'root'@'localhost' (using password: YES)
+)
+
+2021-06-25 11:35:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60790'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/'
+    'PHP_SELF' => '/index.php/mahasiswa/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624620937.4799
+    'REQUEST_TIME' => 1624620937
+]

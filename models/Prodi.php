@@ -15,16 +15,14 @@ class Prodi extends ActiveRecord
 		return $this->hasOne(Jurusan::className(), ['id' => 'id_jurusan']);
 	}
 
-	public static function getProdiList($categoryID, $dependent = false)
+	public static function getProdiList($jurusanID, $dependent = false)
 	{
 		$subCategory = self::find()
-			->where(['subcat-id' => $categoryID]);
-
-		if ($categoryID != "") {
-			return $subCategory->select(['id', 'prodi'])->asArray()->all();
-		} else {
-			return $subCategory->select(['prodi'])->indexBy('id')->column();
-		}
+			->select(['prodi as name', 'id'])
+			->where(['id_jurusan' => $jurusanID])
+			->asArray()
+			->all();
+			return $subCategory;
 	}
 
 	
