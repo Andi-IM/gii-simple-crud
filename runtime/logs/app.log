@@ -12532,3 +12532,60 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1624620937.4799
     'REQUEST_TIME' => 1624620937
 ]
+2021-06-25 11:37:27 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\MahasiswaSearch::tgllahir in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('tgllahir')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\models\MahasiswaSearch.php(62): yii\db\BaseActiveRecord->__get('tgllahir')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(41): app\models\MahasiswaSearch->search(Array)
+#3 [internal function]: app\controllers\MahasiswaController->actionIndex()
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2021-06-25 11:37:27 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58258'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/'
+    'PHP_SELF' => '/index.php/mahasiswa/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621047.8311
+    'REQUEST_TIME' => 1624621047
+]
