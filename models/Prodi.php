@@ -22,7 +22,7 @@ class Prodi extends ActiveRecord
 		// $subCategory = self::find()
 		// 	->where(['category_id' => $categoryID]);
 
-		if ($cat_id == "") {
+		if ($dependent == "") {
 			return $subCategory->select(['id', 'prodi as name'])->asArray()->all();
 		} else {
 			return $subCategory->select(['prodi'])->indexBy('id')->column();

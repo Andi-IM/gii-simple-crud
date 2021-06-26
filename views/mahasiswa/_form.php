@@ -39,7 +39,7 @@ use kartik\depdrop\DepDrop;
     ?>
 
     <?= $form->field($model, 'id_prodi')->widget(DepDrop::classname(), [
-        'data' => Prodi::getProdiList($model->id_jurusan),
+        'data' => Prodi::getProdiList($model->id_jurusan, $model->nim),
         'options' => ['id' => 'prodi', 'prompt' => 'Select Prodi...'],
         'pluginOptions' => [
             'depends' => ['cat-id'],
