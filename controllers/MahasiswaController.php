@@ -68,21 +68,18 @@ class MahasiswaController extends Controller
     }
 
     public function actionSubcat(){
+        Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
         $out = [];
         if(isset($_POST['depdrop_parents'])){
-            $parents = $_POST['depdrop_parent'];
+            $parents = $_POST['depdrop_parents'];
             if ($parents != null) {
-                $prodi = $parents[0];
-                $out = Prodi::getProdiList($prodi);
+                $cat_id = $parents[0];
+                $out = Prodi::getProdiList($cat_id);
 
-                return json_encode(
-                    ['output'=>$out, 'selected'=>'']
-                );
+                return ['output'=>$out, 'selected'=>''];
             }
         }
-        return json_encode(
-            ['output'=>'', 'selected'=>'']
-        );
+        return ['output'=>'', 'selected'=>''];
     }
 
     /**

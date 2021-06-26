@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jun 12, 2021 at 01:46 PM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.7
+-- Host: localhost:3306
+-- Generation Time: Jun 26, 2021 at 03:24 AM
+-- Server version: 5.7.33
+-- PHP Version: 7.4.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -44,7 +43,7 @@ CREATE TABLE `barang` (
 --
 
 INSERT INTO `barang` (`id`, `kode_barang`, `nama_barang`, `satuan`, `id_jenis`, `id_supplier`, `harga`, `stok`) VALUES
-(1, 'B01', 'Handphone', 'Unit', 1, 1, 5000000, 5);
+(1, 'KD001', 'JackCloth', 'stel', 1, 1, 10, 200);
 
 -- --------------------------------------------------------
 
@@ -66,9 +65,8 @@ INSERT INTO `country` (`code`, `name`, `population`) VALUES
 ('AU', 'Australia', 24016400),
 ('BR', 'Brazil', 205722000),
 ('CA', 'Canada', 35985751),
-('CN', 'China', 1375210000),
 ('DE', 'Germany', 81459000),
-('FR', 'France', 64613242),
+('FR', 'France', 64513242),
 ('GB', 'United Kingdom', 65097000),
 ('IN', 'India', 1285400000),
 ('RU', 'Russia', 146519759),
@@ -91,9 +89,7 @@ CREATE TABLE `jenis` (
 --
 
 INSERT INTO `jenis` (`id`, `nama_jenis`, `keterangan`) VALUES
-(1, 'Elektronik', 'Barang Elektronik'),
-(2, 'Barang Jadi', 'Barang Yang Sudah Jadi'),
-(5, 'Barang Pajangan Toko', 'Barang yang termasuk pajangan');
+(1, 'Makanan Ringan', 'Makanan murah untuk mengganjal perut');
 
 -- --------------------------------------------------------
 
@@ -112,9 +108,9 @@ CREATE TABLE `jurusan` (
 --
 
 INSERT INTO `jurusan` (`id`, `KodeJurusan`, `NamaJurusan`) VALUES
-(1, 'J0001', 'Teknologi Informasi'),
-(2, 'J0002', 'Teknik Elektro'),
-(3, 'J0003', 'Teknik Mesin');
+(1, 'TM', 'Teknik Mesin'),
+(2, 'TE', 'Teknik Elektro'),
+(3, 'TI', 'Teknologi Informasi');
 
 -- --------------------------------------------------------
 
@@ -126,24 +122,31 @@ CREATE TABLE `mahasiswa` (
   `id` int(11) NOT NULL,
   `nim` varchar(18) NOT NULL,
   `nama` varchar(50) NOT NULL,
-  `jekel` char(1) NOT NULL,
+  `jekel` enum('P','L') NOT NULL,
   `tgllahir` date NOT NULL,
+  `id_jurusan` int(11) NOT NULL,
   `id_prodi` int(11) NOT NULL,
   `email` varchar(50) NOT NULL,
   `alamat` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
 --
--- Dumping data for table `mahasiswa`
+-- Table structure for table `migration`
 --
 
-INSERT INTO `mahasiswa` (`id`, `nim`, `nama`, `jekel`, `tgllahir`, `id_prodi`, `email`, `alamat`) VALUES
-(1, '10001', 'Darmawan Putra', 'L', '2000-02-16', 1, 'Darmawan@gmail.com', 'Jln. jambu'),
-(2, '10002', 'Putri Nabila', 'P', '2000-02-24', 3, 'putri@gmail.com', 'Bukittinggi'),
-(4, '10003', 'Bambang', 'L', '1999-10-01', 2, 'bambang@gmail.com', 'Padang'),
-(5, '1004', 'Siti', 'P', '2002-06-26', 2, 'siti@gmail.com', 'Solok'),
-(6, '10005', 'Agus', 'L', '2001-11-22', 3, 'gus@gmail.com', 'Padang Panjang'),
-(8, '10005', 'Philia', 'P', '2001-03-22', 3, 'philia@gmail.com', 'Testtttttt');
+CREATE TABLE `migration` (
+  `version` varchar(180) NOT NULL,
+  `apply_time` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `migration`
+--
+
+INSERT INTO `migration` (`version`, `apply_time`) VALUES
+('m000000_000000_base', 1618308684);
 
 -- --------------------------------------------------------
 
@@ -153,19 +156,19 @@ INSERT INTO `mahasiswa` (`id`, `nim`, `nama`, `jekel`, `tgllahir`, `id_prodi`, `
 
 CREATE TABLE `prodi` (
   `id` int(11) NOT NULL,
-  `idJurusan` int(11) NOT NULL,
-  `prodi` varchar(50) NOT NULL,
-  `keterangan` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_jurusan` int(11) NOT NULL,
+  `prodi` varchar(50) COLLATE latin1_bin NOT NULL,
+  `keterangan` varchar(50) COLLATE latin1_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_bin;
 
 --
 -- Dumping data for table `prodi`
 --
 
-INSERT INTO `prodi` (`id`, `idJurusan`, `prodi`, `keterangan`) VALUES
-(1, 1, 'Teknologi Rekayasa Perangkat Lunak', 'RPL'),
-(2, 1, 'Manajemen Informasi', 'MI'),
-(3, 1, 'Teknologi Komputer', 'TK');
+INSERT INTO `prodi` (`id`, `id_jurusan`, `prodi`, `keterangan`) VALUES
+(1, 1, 'D3 Teknik Mesin', 'TME'),
+(2, 1, 'D4 Teknik Manufaktur', 'TMA'),
+(3, 3, 'D4 Teknologi Rekayasa Perangkat Lunak', 'TPL');
 
 -- --------------------------------------------------------
 
@@ -186,9 +189,7 @@ CREATE TABLE `supplier` (
 --
 
 INSERT INTO `supplier` (`id`, `nama_supplier`, `notelp`, `email`, `alamat`) VALUES
-(1, 'PT ABC', '082265987812', 'Darmawan@gmail.com', 'Padang Panjang'),
-(2, 'PT Akrasa', '089565352545', 'Akrasa@gmail.com', 'Padang'),
-(5, 'Bambang Hantoso', '089908786576', 'BudiGemas@gmail.com', 'Pesisir Selatan');
+(1, 'PT Mayora Indah TBK', '08209323812', 'office@mayora.co.id', 'Jalan By. Pass KM 97');
 
 --
 -- Indexes for dumped tables
@@ -199,8 +200,8 @@ INSERT INTO `supplier` (`id`, `nama_supplier`, `notelp`, `email`, `alamat`) VALU
 --
 ALTER TABLE `barang`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `id_jenis` (`id_jenis`),
-  ADD KEY `id_supplier` (`id_supplier`);
+  ADD KEY `idx-id_jenis` (`id_jenis`),
+  ADD KEY `idx-id_supplier` (`id_supplier`);
 
 --
 -- Indexes for table `country`
@@ -225,15 +226,20 @@ ALTER TABLE `jurusan`
 --
 ALTER TABLE `mahasiswa`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `id_prodi` (`id_prodi`);
+  ADD KEY `jurusan_ibfk_1` (`id_jurusan`);
+
+--
+-- Indexes for table `migration`
+--
+ALTER TABLE `migration`
+  ADD PRIMARY KEY (`version`);
 
 --
 -- Indexes for table `prodi`
 --
 ALTER TABLE `prodi`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `idJurusan` (`idJurusan`),
-  ADD KEY `idJurusan_2` (`idJurusan`);
+  ADD KEY `prodi_ibfk_1` (`id_jurusan`);
 
 --
 -- Indexes for table `supplier`
@@ -249,13 +255,13 @@ ALTER TABLE `supplier`
 -- AUTO_INCREMENT for table `barang`
 --
 ALTER TABLE `barang`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `jenis`
 --
 ALTER TABLE `jenis`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `jurusan`
@@ -267,7 +273,7 @@ ALTER TABLE `jurusan`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `prodi`
@@ -279,7 +285,7 @@ ALTER TABLE `prodi`
 -- AUTO_INCREMENT for table `supplier`
 --
 ALTER TABLE `supplier`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Constraints for dumped tables
@@ -289,20 +295,20 @@ ALTER TABLE `supplier`
 -- Constraints for table `barang`
 --
 ALTER TABLE `barang`
-  ADD CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`id_jenis`) REFERENCES `jenis` (`id`),
-  ADD CONSTRAINT `barang_ibfk_2` FOREIGN KEY (`id_supplier`) REFERENCES `supplier` (`id`);
+  ADD CONSTRAINT `pk-id_jenis` FOREIGN KEY (`id_jenis`) REFERENCES `jenis` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `pk-id_supplier` FOREIGN KEY (`id_supplier`) REFERENCES `supplier` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  ADD CONSTRAINT `mahasiswa_ibfk_1` FOREIGN KEY (`id_prodi`) REFERENCES `prodi` (`id`);
+  ADD CONSTRAINT `jurusan_ibfk_1` FOREIGN KEY (`id_jurusan`) REFERENCES `jurusan` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `prodi`
 --
 ALTER TABLE `prodi`
-  ADD CONSTRAINT `prodi_ibfk_1` FOREIGN KEY (`idJurusan`) REFERENCES `jurusan` (`id`);
+  ADD CONSTRAINT `prodi_ibfk_1` FOREIGN KEY (`id_jurusan`) REFERENCES `jurusan` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

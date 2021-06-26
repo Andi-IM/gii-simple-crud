@@ -35,14 +35,14 @@ use kartik\depdrop\DepDrop;
     ]); ?>
 
     <?= $form->field($model, 'id_jurusan')->dropDownList(Jurusan::getJurusan(),
-        ['id' => 'jurusan', 'prompt' => 'Select Jurusan...']) 
+        ['id' => 'cat-id', 'prompt' => 'Select Jurusan...']) 
     ?>
 
     <?= $form->field($model, 'id_prodi')->widget(DepDrop::classname(), [
         'data' => Prodi::getProdiList($model->id_jurusan),
         'options' => ['id' => 'prodi', 'prompt' => 'Select Prodi...'],
         'pluginOptions' => [
-            'depends' => ['jurusan'],
+            'depends' => ['cat-id'],
             'placeholder' => 'Select Prodi...',
             'url' => Url::to(['mahasiswa/subcat'])
         ]

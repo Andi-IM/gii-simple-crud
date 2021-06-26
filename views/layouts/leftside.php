@@ -47,14 +47,8 @@ use yii\helpers\Url;
                                     'label' => 'Mahasiswa',
                                     'icon' => 'fa fa-database',
                                     'url' => 'mahasiswa/',
-				    'active' => $this->context->route == 'mahasiswa/index'
+				                'active' => $this->context->route == 'mahasiswa/index'
                                 ],
-                                [
-                                    'label' => 'Master2',
-                                    'icon' => 'fa fa-database',
-                                    'url' => '?r=master2/',
-				    'active' => $this->context->route == 'master2/index'
-                                ]
                             ]
                         ],
                         [

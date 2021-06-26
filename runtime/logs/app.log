@@ -12589,3 +12589,2490 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1624621047.8311
     'REQUEST_TIME' => 1624621047
 ]
+2021-06-25 11:40:48 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\MahasiswaSearch::tgllahir in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('tgllahir')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\models\MahasiswaSearch.php(62): yii\db\BaseActiveRecord->__get('tgllahir')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(41): app\models\MahasiswaSearch->search(Array)
+#3 [internal function]: app\controllers\MahasiswaController->actionIndex()
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2021-06-25 11:40:47 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57427'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/'
+    'PHP_SELF' => '/index.php/mahasiswa/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621247.9794
+    'REQUEST_TIME' => 1624621247
+]
+2021-06-25 11:40:49 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\MahasiswaSearch::tgllahir in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('tgllahir')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\models\MahasiswaSearch.php(62): yii\db\BaseActiveRecord->__get('tgllahir')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(41): app\models\MahasiswaSearch->search(Array)
+#3 [internal function]: app\controllers\MahasiswaController->actionIndex()
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2021-06-25 11:40:49 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58989'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/'
+    'PHP_SELF' => '/index.php/mahasiswa/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621249.0054
+    'REQUEST_TIME' => 1624621249
+]
+2021-06-25 11:42:32 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(102): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 11:42:30 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49469'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621350.0747
+    'REQUEST_TIME' => 1624621350
+]
+2021-06-25 11:42:43 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: mahasiswa/mahasiswa in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php:152
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('mahasiswa', Array)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/mahas...', Array)
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-06-25 11:42:43 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65530'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/mahasiswa/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/mahasiswa/'
+    'PHP_SELF' => '/index.php/mahasiswa/mahasiswa/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/?r=master2/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621363.3492
+    'REQUEST_TIME' => 1624621363
+]
+2021-06-25 11:43:59 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: mahasiswa/mahasiswa in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php:152
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('mahasiswa', Array)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/mahas...', Array)
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-06-25 11:43:59 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49299'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/mahasiswa/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/mahasiswa/'
+    'PHP_SELF' => '/index.php/mahasiswa/mahasiswa/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/?r=master2/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621439.7769
+    'REQUEST_TIME' => 1624621439
+]
+2021-06-25 11:44:11 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(102): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 11:44:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51112'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624621450.9756
+    'REQUEST_TIME' => 1624621450
+]
+2021-06-25 12:06:57 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(102): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:06:57 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58246'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624622817.7885
+    'REQUEST_TIME' => 1624622817
+]
+2021-06-25 12:07:03 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(102): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:07:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65519'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624622823.4823
+    'REQUEST_TIME' => 1624622823
+]
+2021-06-25 12:12:16 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:12:15 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59615'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624623135.979
+    'REQUEST_TIME' => 1624623135
+]
+2021-06-25 12:20:17 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:20:17 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63731'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624623617.2117
+    'REQUEST_TIME' => 1624623617
+]
+2021-06-25 12:29:55 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:29:55 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54430'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624195.7906
+    'REQUEST_TIME' => 1624624195
+]
+2021-06-25 12:30:17 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:30:16 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55633'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624216.9336
+    'REQUEST_TIME' => 1624624216
+]
+2021-06-25 12:31:59 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:31:59 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49516'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624319.8176
+    'REQUEST_TIME' => 1624624319
+]
+2021-06-25 12:32:08 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:32:08 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59807'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624328.5765
+    'REQUEST_TIME' => 1624624328
+]
+2021-06-25 12:32:11 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:32:11 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62496'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624331.1859
+    'REQUEST_TIME' => 1624624331
+]
+2021-06-25 12:33:55 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:33:55 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53088'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624435.5456
+    'REQUEST_TIME' => 1624624435
+]
+2021-06-25 12:33:56 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:33:56 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58476'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624436.6414
+    'REQUEST_TIME' => 1624624436
+]
+2021-06-25 12:33:58 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:33:58 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59887'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624438.211
+    'REQUEST_TIME' => 1624624438
+]
+2021-06-25 12:34:59 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:34:59 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60931'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624499.4972
+    'REQUEST_TIME' => 1624624499
+]
+2021-06-25 12:35:41 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(98): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:35:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61941'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624541.6353
+    'REQUEST_TIME' => 1624624541
+]
+2021-06-25 12:37:55 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(99): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:37:55 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56296'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624675.3297
+    'REQUEST_TIME' => 1624624675
+]
+2021-06-25 12:40:58 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:40:58 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61390'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624858.1627
+    'REQUEST_TIME' => 1624624858
+]
+2021-06-25 12:41:40 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 12:41:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61467'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f00ed2d43f51e3d015b7149301343c5ddab7afa5e44af3cab93e00c5b9739f12a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222CPxSdqyxeQeXiz6S3QVCMY6nwABIvQ-%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624624900.2822
+    'REQUEST_TIME' => 1624624900
+]
+2021-06-25 14:38:56 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Mahasiswa::id_jurusan in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Component.php:155
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('id_jurusan')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(2248): yii\db\BaseActiveRecord->__get('id_jurusan')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1840): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Mahasiswa), 'id_jurusan')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(1678): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\widgets\ActiveField.php(654): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Mahasiswa), 'id_jurusan', Array, Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(38): yii\widgets\ActiveField->dropDownList(Array, Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2021-06-25 14:38:56 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '594beefedcc9720ac0530952b4a6ae8432637c159950e9a4829ec8e79f0fb5a3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SIMg6Vyf08gxqWhqNFVbnIv49bF-rYF4\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55760'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=594beefedcc9720ac0530952b4a6ae8432637c159950e9a4829ec8e79f0fb5a3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SIMg6Vyf08gxqWhqNFVbnIv49bF-rYF4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624631936.031
+    'REQUEST_TIME' => 1624631936
+]
+2021-06-25 14:42:00 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subcat-id' in 'where clause' in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute('SELECT `prodi`,...')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Query.php(330): yii\db\Command->queryAll()
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\models\Prodi.php(26): yii\db\Query->column()
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(42): app\models\Prodi::getProdiList(NULL)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', '[<span class="s...')
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', '[<span class="s...')
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subcat-id' in 'where clause'
+The SQL being executed was: SELECT `prodi`, `prodi`.`id` FROM `prodi` WHERE `subcat-id` IS NULL in C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `prodi`,...')
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute('SELECT `prodi`,...')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\db\Query.php(330): yii\db\Command->queryAll()
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\models\Prodi.php(26): yii\db\Query->column()
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(42): app\models\Prodi::getProdiList(NULL)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', '[<span class="s...')
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', '[<span class="s...')
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#20 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#22 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'subcat-id' in 'where clause'
+)
+
+2021-06-25 14:42:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '594beefedcc9720ac0530952b4a6ae8432637c159950e9a4829ec8e79f0fb5a3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SIMg6Vyf08gxqWhqNFVbnIv49bF-rYF4\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54456'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=594beefedcc9720ac0530952b4a6ae8432637c159950e9a4829ec8e79f0fb5a3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SIMg6Vyf08gxqWhqNFVbnIv49bF-rYF4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624632120.5907
+    'REQUEST_TIME' => 1624632120
+]
+2021-06-25 14:44:22 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: categoryID in C:\Users\andii\Documents\devapp\gii-simple-crud\models\Prodi.php:23
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\models\Prodi.php(23): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Users\\andii\\...', 23, Array)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(42): app\models\Prodi::getProdiList(NULL)
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#15 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2021-06-25 14:44:22 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '594beefedcc9720ac0530952b4a6ae8432637c159950e9a4829ec8e79f0fb5a3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SIMg6Vyf08gxqWhqNFVbnIv49bF-rYF4\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57863'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=594beefedcc9720ac0530952b4a6ae8432637c159950e9a4829ec8e79f0fb5a3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SIMg6Vyf08gxqWhqNFVbnIv49bF-rYF4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624632262.7059
+    'REQUEST_TIME' => 1624632262
+]
+2021-06-26 01:59:41 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:72
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(72): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 72, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 01:59:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '1'
+    ]
+    'depdrop_all_params' => [
+        'id_jurusan' => '1'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63393'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '61'
+    'HTTP_CONTENT_LENGTH' => '61'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'nZJ-n5X3EIiohqiG2TN3XMprJr8Ltdijshz6JDWGaH3_8TX7rMRR_JzTysXvBxEIoS5W81Lb65SKb5Z8UMMkCw=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624672781.7752
+    'REQUEST_TIME' => 1624672781
+]
+2021-06-26 02:13:03 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:72
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(72): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 72, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:13:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '2'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '2'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49377'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => '-uwiLwVaZdvQFM2AnOwa6fy3ux3bbvolh51FK7FMyJyYj2lLPGkkr-RBr8Oq2Hy9l_LLUYIAyRK_7ilz1AmE6g=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624673583.2129
+    'REQUEST_TIME' => 1624673583
+]
+2021-06-26 02:30:45 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected end of file in C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php:66
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2021-06-26 02:30:45 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60844'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674645.8904
+    'REQUEST_TIME' => 1624674645
+]
+2021-06-26 02:31:11 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected end of file in C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php:66
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(97): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2021-06-26 02:31:11 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59365'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674671.6811
+    'REQUEST_TIME' => 1624674671
+]
+2021-06-26 02:31:50 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:72
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(72): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 72, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:31:50 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '1'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '1'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50385'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => '0DRVFLcfUdLNuD3ZbD0jDKlErygWv2QjD9l5CwgZzTmyVx5wjiwQpvntX5paCUVYwgHfZE_RVxQ3qhVTbVyBTw=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674710.4831
+    'REQUEST_TIME' => 1624674710
+]
+2021-06-26 02:32:22 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:72
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(72): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 72, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:32:22 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '3'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '3'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63717'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'SpxbNNFL-kWUazotxsUaW7g_HJAl9mBcfa2fIwipNIgo_xBQ6Hi7MaA-WG7w8XwP03ps3HyYU2tF3vN7bex4_g=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674742.0574
+    'REQUEST_TIME' => 1624674742
+]
+2021-06-26 02:35:45 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:73
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(73): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 73, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:35:45 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '3'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '3'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59177'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'X_OOrGPatqz6k0Dp2UavnD0Lc027NwYOpQlj80geWW49kMXIWun32M7GIqrvcsnIVk4DAeJZNTmdeg-rLVsVGA=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674945.6392
+    'REQUEST_TIME' => 1624674945
+]
+2021-06-26 02:35:49 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:73
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(73): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 73, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:35:48 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '1'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '1'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59614'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'X_OOrGPatqz6k0Dp2UavnD0Lc027NwYOpQlj80geWW49kMXIWun32M7GIqrvcsnIVk4DAeJZNTmdeg-rLVsVGA=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674948.9913
+    'REQUEST_TIME' => 1624674948
+]
+2021-06-26 02:36:03 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:73
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(73): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 73, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:36:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '1'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '1'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56205'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'oSzGg-svRt3prw87pgz-l7hw4yizFYy-UXZr9bXmNBrDT43n0hwHqd36bXiQOJjD0zWTZOp7v4lpBQet0KN4bA=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624674963.497
+    'REQUEST_TIME' => 1624674963
+]
+2021-06-26 02:39:59 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: depdrop_parent in C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php:73
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(73): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\andii\\...', 73, Array)
+#1 [internal function]: app\controllers\MahasiswaController->actionSubcat()
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('subcat', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/subca...', Array)
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2021-06-26 02:39:58 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'depdrop_parents' => [
+        0 => '1'
+    ]
+    'depdrop_all_params' => [
+        'jurusan' => '1'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60623'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/subcat'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/subcat'
+    'PHP_SELF' => '/index.php/mahasiswa/subcat'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CONTENT_LENGTH' => '58'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'FEXLpFEKK_LpQ96pNLRQBxV7PkPQIOnZQpVfFWVneZN2JoDAaDlqht0WvOoCgDZTfj5OD4lO2u565jNNACI15Q=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Mobile Safari/537.36 Edg/91.0.864.59'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624675198.9931
+    'REQUEST_TIME' => 1624675198
+]
+2021-06-26 03:12:00 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Use of undefined constant js - assumed 'js' (this will throw an Error in a future version of PHP) in C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php:16
+Stack trace:
+#0 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\_form.php(16): yii\base\ErrorHandler->handleError(2, 'Use of undefine...', 'C:\\Users\\andii\\...', 16, Array)
+#1 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#2 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#3 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, NULL)
+#4 C:\Users\andii\Documents\devapp\gii-simple-crud\views\mahasiswa\create.php(17): yii\base\View->render('_form', Array)
+#5 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\andii\\...')
+#6 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\andii\\...', Array)
+#7 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\andii\\...', Array, Object(app\controllers\MahasiswaController))
+#8 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\MahasiswaController))
+#9 C:\Users\andii\Documents\devapp\gii-simple-crud\controllers\MahasiswaController.php(99): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\MahasiswaController->actionCreate()
+#11 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('create', Array)
+#14 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('mahasiswa/creat...', Array)
+#15 C:\Users\andii\Documents\devapp\gii-simple-crud\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\andii\Documents\devapp\gii-simple-crud\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2021-06-26 03:12:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bcKd93At4UbC64fTkEpLYn378slXeELv\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56843'
+    'SERVER_SOFTWARE' => 'PHP 7.4.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\andii\\Documents\\devapp\\gii-simple-crud\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/create'
+    'PHP_SELF' => '/index.php/mahasiswa/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?1'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Mobile Safari/537.36 Edg/91.0.864.59'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/mahasiswa/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8,id;q=0.7'
+    'HTTP_COOKIE' => '_csrf=f48091f10f4b51dd7b5217e6f8ec187bad6a105e42df04d4246deea5a4dfd739a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bcKd93At4UbC64fTkEpLYn378slXeELv%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1624677120.8248
+    'REQUEST_TIME' => 1624677120
+]
