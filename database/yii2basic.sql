@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 26, 2021 at 03:24 AM
+-- Generation Time: Jul 09, 2021 at 07:54 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -129,6 +129,13 @@ CREATE TABLE `mahasiswa` (
   `email` varchar(50) NOT NULL,
   `alamat` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `mahasiswa`
+--
+
+INSERT INTO `mahasiswa` (`id`, `nim`, `nama`, `jekel`, `tgllahir`, `id_jurusan`, `id_prodi`, `email`, `alamat`) VALUES
+(2, '1911082006', 'Andi Irham', 'L', '2021-06-30', 1, 1, 'andi.irhamm@gmail.com', 'Unand');
 
 -- --------------------------------------------------------
 
@@ -273,7 +280,7 @@ ALTER TABLE `jurusan`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `prodi`
