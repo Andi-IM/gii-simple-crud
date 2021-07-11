@@ -1,40 +1,43 @@
 <?php
+
 use yii\helpers\Html;
+use yii\grid\GridView;
 use yii\widgets\LinkPager;
 
-$this->title = "Data Mahasiswa";
+
+/* @var $this yii\web\View */
+/* @var $searchModel app\models\MahasiswaSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Mahasiswas';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
+<div class="mahasiswa-index">
 
+    <p>
+        <?= Html::a('Create Mahasiswa', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
 
-<h1>Data Mahasiswa</h1>
-<p>
-    <?= Html::a('Create Mahasiswa', ['create'], ['class' => 'btn btn-success']) ?>
-</p>
-    
-<table class="table table-hover">
-    <tr>
-        <td>No</td>
-        <td>Nim</td>
-        <td>Nama</td>
-        <td>Jenis Kelamin</td>
-        <td>Email</td>
-        <td>Alamat</td>
-        <td>Aksi</td>
-    </tr>
-    <?php foreach($data_mahasiswa as $mahasiswa):?>
-    <tr>
-        <td><?= Html::encode($mahasiswa->id)?></td>
-        <td><?= Html::encode($mahasiswa->nim)?></td>
-        <td><?= Html::encode($mahasiswa->nama)?></td>
-        <td><?= Html::encode($mahasiswa->jekel)?></td>
-        <td><?= Html::encode($mahasiswa->email)?></td>
-        <td><?= Html::encode($mahasiswa->alamat)?></td>
-        <td>
-            <?= Html::a('Edit', ['mahasiswa/update','id'=>$mahasiswa->id])?> |
-            <?= Html::a('Hapus', ['mahasiswa/delete','id'=>$mahasiswa->id],
-            ['onclick'=>'return(confirm("Yakin menghapus data ?"))'])?>
-        </td>
-    </tr>
-    <?php endforeach; ?>
-</table>
-<?= LinkPager::widget(['pagination' => $pagination])?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'id',
+            'nim',
+            'nama',
+            'jekel',
+            'tgllahir',
+            'prodi.prodi',
+            //'id_prodi',
+            'email:email',
+            'alamat',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
+</div>
