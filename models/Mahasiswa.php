@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use yii\helpers\Url;
+use yii\web\UploadedFile;
 
 /**
  * This is the model class for table "mahasiswa".
@@ -15,11 +17,13 @@ use Yii;
  * @property int $id_prodi
  * @property string $email
  * @property string $alamat
+ * @property string $image_file
  *
  * @property Prodi $prodi
  */
 class Mahasiswa extends \yii\db\ActiveRecord
 {
+    public $image;
     /**
      * {@inheritdoc}
      */
@@ -34,15 +38,17 @@ class Mahasiswa extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nim', 'nama', 'jekel', 'tgllahir', 'id_jurusan', 'id_prodi', 'email', 'alamat'], 'required'],
+            [['nim', 'nama', 'jekel', 'tgllahir', 'id_jurusan', 'id_prodi', 'email', 'alamat', 'image_file'], 'required'],
             [['tgllahir'], 'safe'],
             [['id_prodi', 'id_jurusan'], 'integer'],
             [['nim'], 'string', 'max' => 18],
             [['nama', 'email'], 'string', 'max' => 50],
             [['jekel'], 'string', 'max' => 1],
             [['alamat'], 'string', 'max' => 100],
+            [['image_file'], 'string', 'max' => 255],
             [['id_prodi'], 'exist', 'skipOnError' => true, 'targetClass' => Prodi::className(), 'targetAttribute' => ['id_prodi' => 'id']],
             [['id_jurusan'], 'exist', 'skipOnError' => true, 'targetClass' => Jurusan::className(), 'targetAttribute' => ['id_jurusan' => 'id']],
+            [['image'], 'file', 'skipOnEmpty'=>'true', 'extensions' => 'png, jpg']
         ];
     }
 
@@ -61,6 +67,7 @@ class Mahasiswa extends \yii\db\ActiveRecord
             'id_prodi' => 'Id Prodi',
             'email' => 'Email',
             'alamat' => 'Alamat',
+            'image_file' => 'Avatar',
         ];
     }
 
@@ -73,9 +80,24 @@ class Mahasiswa extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Prodi::className(), ['id' => 'id_prodi']);
     }
+
     public function getJurusan()
     {
        return $this->hasOne(Jurusan::className(), ['id' => 'id_jurusan']);
+    }
+
+    public function upload()
+    {
+        if (true) {
+            $path = $this->uploadPath() . $this->id . "." . $this->image_file->extension;
+            $this->image_file->saveAs($path);
+            $this->image = $this->id . "." . $this->image_file->extension;
+            $this->save();
+        }
+    }
+
+    public function uploadPath() {
+        return Url::to('@web/uploads/events');
     }
 
 }

@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\Pagination;
 use app\models\Prodi;
+use yii\web\UploadedFile;
 
 /**
  * MahasiswaController implements the CRUD actions for Mahasiswa model.
@@ -41,9 +42,9 @@ class MahasiswaController extends Controller
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         // $query = Mahasiswa::find();
         // $pagination = new Pagination([
-		// 	'defaultPageSize' => 2,
-		// 	'totalCount' => $query->count(),
-		// ]);
+        // 	'defaultPageSize' => 2,
+        // 	'totalCount' => $query->count(),
+        // ]);
         // $data_mahasiswa = $query->orderBy('id')->offset($pagination->offset)->limit($pagination->limit)->all();
 
         return $this->render('index', [
@@ -67,19 +68,20 @@ class MahasiswaController extends Controller
         ]);
     }
 
-    public function actionSubcat(){
+    public function actionSubcat()
+    {
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
         $out = [];
-        if(isset($_POST['depdrop_parents'])){
+        if (isset($_POST['depdrop_parents'])) {
             $parents = $_POST['depdrop_parents'];
             if ($parents != null) {
                 $cat_id = $parents[0];
                 $out = Prodi::getProdiList($cat_id);
 
-                return ['output'=>$out, 'selected'=>''];
+                return ['output' => $out, 'selected' => ''];
             }
         }
-        return ['output'=>'', 'selected'=>''];
+        return ['output' => '', 'selected' => ''];
     }
 
     /**
@@ -91,7 +93,12 @@ class MahasiswaController extends Controller
     {
         $model = new Mahasiswa();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $image = UploadedFile::getInstance($model, 'image');
+            $model->image_file = $image->name;
+            $model->save();
+
+            $image->saveAs(Yii::$app->basePath . '/web/images/uploads/' . $image->name);
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
@@ -111,7 +118,17 @@ class MahasiswaController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+
+            $oldImageFile = $model->image_file;
+            if ($oldImageFile != "") {
+                unlink(Yii::$app->basePath . '/web/images/uploads/' . $oldImageFile);
+            }
+
+            $image = UploadedFile::getInstance($model, 'image');
+            $model->image_file = $image->name;
+            $model->save();
+
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
@@ -129,8 +146,9 @@ class MahasiswaController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
-
+        $model = $this->findModel($id);
+        unlink(Yii::$app->basePath . '/web/images/uploads/' . $model->image_file);
+        $model->delete();
         return $this->redirect(['index']);
     }
 

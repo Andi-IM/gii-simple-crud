@@ -2,14 +2,14 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use yii\helpers\ArrayHelper;
 use app\models\Prodi;
 use app\models\Jurusan;
 use kartik\date\DatePicker;
 use yii\helpers\Url;
 use kartik\depdrop\DepDrop;
+use kartik\file\FileInput;
 
-
+app\assets\FileInputFixAsset::register($this);
 /* @var $this yii\web\View */
 /* @var $model app\models\Mahasiswa */
 /* @var $form yii\widgets\ActiveForm */
@@ -17,25 +17,28 @@ use kartik\depdrop\DepDrop;
 
 <div class="mahasiswa-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php
+
+    $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]);
+    ?>
 
     <?= $form->field($model, 'nim')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'nama')->textInput(['maxlength' => true]) ?>
 
-    <?php $model->isNewRecord==1? $model->jekel='L':$model->jekel; ?>
-		<?= $form->field($model, 'jekel')->radioList(array('L'=>'Laki-laki', 'P'=>'Perempuan'))->label('Jenis Kelamin') ?>
+    <?php $model->isNewRecord == 1 ? $model->jekel = 'L' : $model->jekel; ?>
+    <?= $form->field($model, 'jekel')->radioList(array('L' => 'Laki-laki', 'P' => 'Perempuan'))->label('Jenis Kelamin') ?>
 
     <?= $form->field($model, 'tgllahir')->widget(DatePicker::classname(), [
         'options' => ['placeholder' => 'Pilih Tanggal ...'],
         'pluginOptions' => [
-        'autoclose'=>true,
-        'format' => 'yyyy-mm-dd'
+            'autoclose' => true,
+            'format' => 'yyyy-mm-dd'
         ]
     ]); ?>
 
     <?= $form->field($model, 'id_jurusan')->dropDownList(Jurusan::getJurusan(),
-        ['id' => 'cat-id', 'prompt' => 'Select Jurusan...']) 
+        ['id' => 'cat-id', 'prompt' => 'Select Jurusan...'])
     ?>
 
     <?= $form->field($model, 'id_prodi')->widget(DepDrop::classname(), [
@@ -51,6 +54,36 @@ use kartik\depdrop\DepDrop;
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'alamat')->textInput(['maxlength' => true]) ?>
+
+    <?php if ($model->isNewRecord == 1) {
+          echo $form->field($model, 'image')->widget(FileInput::className(), [
+              'name' => 'attachment_51',
+              'options' => ['accept'=>'/images/uploads/*'],
+              'pluginOptions' => [
+                  'initialPreview' => ['/images/uploads/' . $model->image_file],
+                  'initialPreviewAsData' => true,
+                  'initialCaption' => $model->image_file,
+                  'initialPreviewConfig' => [['caption' => $model->image_file]],
+                  'overwriteInitial' => true,
+                  'showUpload'=>false,
+                  'showRemove'=>false,
+                  'maxFileSize' => 2800,
+                  'theme'=>'fa',
+              ],
+          ]);
+    } else {
+        echo $form->field($model, 'image')->widget(FileInput::className(), [
+            'name' => 'attachment_51',
+            'options' => ['accept'=>'/images/uploads/*'],
+            'pluginOptions' => [
+                'showUpload'=>false,
+                'showRemove'=>false,
+                'maxFileSize' => 2800,
+                'theme'=>'fa',
+            ],
+        ]);
+    }
+    ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
