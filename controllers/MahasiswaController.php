@@ -129,6 +129,7 @@ class MahasiswaController extends Controller
             $model->image_file = $image->name;
             $model->save();
 
+            $image->saveAs(Yii::$app->basePath . '/web/images/uploads/' . $image->name);
             return $this->redirect(['view', 'id' => $model->id]);
         }
 

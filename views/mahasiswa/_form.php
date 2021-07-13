@@ -55,35 +55,7 @@ app\assets\FileInputFixAsset::register($this);
 
     <?= $form->field($model, 'alamat')->textInput(['maxlength' => true]) ?>
 
-    <?php if ($model->isNewRecord == 1) {
-          echo $form->field($model, 'image')->widget(FileInput::className(), [
-              'name' => 'attachment_51',
-              'options' => ['accept'=>'/images/uploads/*'],
-              'pluginOptions' => [
-                  'initialPreview' => ['/images/uploads/' . $model->image_file],
-                  'initialPreviewAsData' => true,
-                  'initialCaption' => $model->image_file,
-                  'initialPreviewConfig' => [['caption' => $model->image_file]],
-                  'overwriteInitial' => true,
-                  'showUpload'=>false,
-                  'showRemove'=>false,
-                  'maxFileSize' => 2800,
-                  'theme'=>'fa',
-              ],
-          ]);
-    } else {
-        echo $form->field($model, 'image')->widget(FileInput::className(), [
-            'name' => 'attachment_51',
-            'options' => ['accept'=>'/images/uploads/*'],
-            'pluginOptions' => [
-                'showUpload'=>false,
-                'showRemove'=>false,
-                'maxFileSize' => 2800,
-                'theme'=>'fa',
-            ],
-        ]);
-    }
-    ?>
+    <?= $form->field($model, 'image')->fileInput()?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

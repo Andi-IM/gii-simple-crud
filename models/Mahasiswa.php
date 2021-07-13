@@ -85,19 +85,4 @@ class Mahasiswa extends \yii\db\ActiveRecord
     {
        return $this->hasOne(Jurusan::className(), ['id' => 'id_jurusan']);
     }
-
-    public function upload()
-    {
-        if (true) {
-            $path = $this->uploadPath() . $this->id . "." . $this->image_file->extension;
-            $this->image_file->saveAs($path);
-            $this->image = $this->id . "." . $this->image_file->extension;
-            $this->save();
-        }
-    }
-
-    public function uploadPath() {
-        return Url::to('@web/uploads/events');
-    }
-
 }
